@@ -6,7 +6,7 @@
 {-# LANGUAGE FlexibleContexts           #-}
 {-# LANGUAGE UndecidableInstances       #-}
 module Commonmark.Html
-  ( Html
+  ( Html(..)
   , htmlInline
   , htmlBlock
   , htmlText
