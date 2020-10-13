@@ -7,6 +7,8 @@
 {-# LANGUAGE UndecidableInstances       #-}
 module Commonmark.Html
   ( Html(..)
+  , ElementType(..)
+  , Attribute
   , htmlInline
   , htmlBlock
   , htmlText
